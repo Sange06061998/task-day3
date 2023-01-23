@@ -1,0 +1,99 @@
+1.JSON-FOR IN method;
+
+1.var person={
+"name":"manojkumar"
+"age":"30"
+"dob":"1992"
+"nationality":"indian"
+"state":"tamilnadu"
+"blood group":"o-"
+};
+for(var a in person){
+console.log(a,person[a]);
+}
+
+2.var employee details={
+"name":"aadhiran"
+"designation":team lead"
+"id no":"cts123"
+"experience":"8"
+"salary":"10Lpa"
+"email":"aadhiran@123@gmail.com"
+};
+for(var b in employee details){
+console.log(b,employee details[b];
+}
+
+2.JSON-RESUME MAKING:
+var resume={
+"name":"prasanth.m"
+"email id":"prasanth123@gaml.com"
+"mobile no":"8676789044"
+"address":"tamilnadu"
+"carrier object":"obtain a responsible position in an organization with the best capabilities,skils and knowledge"
+"education qualification1":"BSc"
+"year":"2014-2017"
+"college name":"abc"
+"cgpa1":"8.9"
+"education qualification2":"MSc"
+"year of passing":"2019"
+"cgpa2":"7.9"
+"university":"saasta university"
+"school education 1":"higher secondary"
+"school name1":"vvhss"
+"percentage1":"85%"
+"school education2":"10th std"
+"school name2":"vvhs"
+"percentage2":"65%"
+"skills":"javascript"
+"hobbies":"football"
+"age":"23"
+"dob":"2000"
+"statae":"tamilnadu"
+"nationality":"indian"
+};
+for(var c in resume ){
+console.log(c,resume[c];
+}
+
+3.DOM&BOM;
+Different between DOM and window object model
+DOM:
+DOM-Document Object Model
+Document  represent files and object represent elements,tags,attributes and ect in html.the document has more elements in html file it seems like tree.
+Ex-html,head,body.. While browsing this html file, DOM takes element as object.
+With the HTML DOM, JavaScript can access and change all the elements of an HTML document.
+With the object model, JavaScript gets all the power it needs to create dynamic HTML:
+•	JavaScript can change all the HTML elements in the page
+•	JavaScript can change all the HTML attributes in the page
+•	JavaScript can change all the CSS styles in the page
+•	JavaScript can remove existing HTML elements and attributes
+•	JavaScript can add new HTML elements and attributes
+•	JavaScript can react to all existing HTML events in the page
+•	JavaScript can create new HTML events in the page
+API-Application Programming Interfaces,its acts as medium between DOM and javascript.
+WINDOW OBJECT;
+The window object represents an open window in a browser.
+If a document contain frames (<iframe> tags), the browser creates one window object for the HTML document, and one additional window object for each frame.
+Properties of window object;
+CONSOLE-Returns the Console Object for the window.
+DOCUMENT-Returns the Document object for the window.
+Functions of window object; 
+alert()-displays an alret box with a message and ok button.
+Confirm()-displays a dialogue box with a message and an ok and a cancel button.
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
